@@ -8,6 +8,6 @@ Build with (64bit):
     $ ld -s -o hello hello-world.o
 
 Build with (32bit):  
-    $ nasm -f elf64 hello-world.asm  
+    $ nasm -f elf hello-world.asm  
     $ ld -s -o hello hello-world.o
 
